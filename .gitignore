@@ -1,0 +1,7 @@
+/src/vendor
+/src/.env
+/.idea
+/.vscode
+
+/src/docker/ngnix/logs
+/src/docker/php/logs

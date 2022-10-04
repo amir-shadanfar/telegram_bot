@@ -1,0 +1,23 @@
+{
+  "name": "amir-shadanfar/telegram_bot",
+  "description": "telegram bot",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amir Shadanfar",
+      "email": "a.shadanfar.it@gmail.com"
+    }
+  ],
+  "keywords": [
+    "Php"
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "guzzlehttp/guzzle": "^6.5 || ^7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~9.0",
+    "mockery/mockery": "^1.5",
+    "fakerphp/faker": "^1.19"
+  }
+}
