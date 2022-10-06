@@ -12,9 +12,7 @@ services:
     depends_on:
       - php
   php:
-    # build: ./docker/php
-    image: php:fpm-alpine
-    # command: curl -sS https://getcomposer.org/installer | php --install-dir=/usr/local/bin --filename=composer
+    build: ./docker/php
     volumes:
       - ./src/:/var/www/html/
       - ./docker/php/logs/php.log:/var/log/fpm-php.www.log
